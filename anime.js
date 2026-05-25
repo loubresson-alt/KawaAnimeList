@@ -15,30 +15,35 @@ fetch("data.json")
 
         const container = document.getElementById("anime-detail");
 
-        // --- Genres ---
+        /* --- GENRES --- */
         const genresHTML = anime.genres
             .map(g => `<span class="genre-badge">${g}</span>`)
             .join("");
 
-        // --- Tags ---
+        /* --- TAGS --- */
         const tagsHTML = anime.tags
             ? anime.tags.map(t => `<span class="tag">${t}</span>`).join("")
             : "";
 
-        // --- Saisons & épisodes ---
+        /* --- SAISONS & ÉPISODES (renommage FR) --- */
         let episodesHTML = "";
         if (anime.episodes) {
             episodesHTML = `
-                <h3>📺 Saisons & épisodes</h3>
+                <h3 class="mini-header"><span>📺 Saisons & épisodes</span></h3>
                 <ul class="episodes-list">
                     ${Object.entries(anime.episodes)
-                        .map(([saison, nb]) => `<li>${saison} : ${nb} épisodes</li>`)
+                        .map(([saison, nb]) => {
+                            const saisonFR = saison
+                                .replace("season", "Saison ")
+                                .replace("Saison ", "Saison ");
+                            return `<li>${saisonFR} : ${nb} épisodes</li>`;
+                        })
                         .join("")}
                 </ul>
             `;
         }
 
-        // --- Construction de la page ---
+        /* --- PAGE DÉTAIL --- */
         container.innerHTML = `
             <div class="detail-card">
 
@@ -65,6 +70,7 @@ fetch("data.json")
             </div>
         `;
     });
+
 
 
 
