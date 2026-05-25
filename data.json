@@ -180,6 +180,45 @@
     "tags": ["action", "comédie", "fantastique", "scolaire", "assassination classroom", "assassination classroom", "AC" ]
 },
 {
+    "id": "Blue-Exorcist",
+    "title": "Blue Exorcist",
+    "image": "images/Blue Exorcist.jpg",
+
+    "year": 2011,
+    "studio": "A-1 Pictures",
+    "rating": "6.5/10",
+
+    "genres": ["Shōnen", "Action", "Démons", "Surnaturel"],
+    "synopsis": "Fils de Satan décidé à le défier, Rin Okumura rejoint l'académie des exorcistes pour maîtriser ses flammes démoniaques et protéger un monde qui le craint.",
+
+    "episodes": {
+        "Saison 1": 25,
+        "Saison 2": 12,
+        "Saison 3": 12,
+        "Saison 4": 24
+    },
+
+    "tags": ["shōnen", "action", "démons", "surnaturel", "blue exorcist", "blue exorcist", "BE"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.png",
+
+    "year": 0,
+    "studio": "",
+    "rating": 0,
+
+    "genres": [],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+    },
+
+    "tags": []
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
