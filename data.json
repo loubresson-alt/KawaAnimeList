@@ -70,15 +70,15 @@
     "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "fantasy", "drame", "comédie"]
 },
 {
-    "id": "",
-    "title": "",
-    "image": "images/.png",
+    "id": "The-Millionaire-Detective-Balance-Unlimited",
+    "title": "The Millionaire Detective - Balance Unlimited",
+    "image": "images/The Millionaire Detective - Balance Unlimited.jpg",
 
-    "year": 0,
-    "studio": "",
-    "rating": 0,
+    "year": 2020,
+    "studio": "FujiPacific Music",
+    "rating": "5/10",
 
-    "genres": [],
+    "genres": [	"Comédie", "drame", "mystère", "polar", "thriller"],
     "synopsis": "",
 
     "episodes": {
