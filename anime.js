@@ -67,8 +67,9 @@ fetch("data.json")
                     ${tagsHTML}
                 </div>
 
-                <button class="voir-plus">→ Regarder</button>
+                <button class="voir-plus" onclick="window.location.href='index.html'">← Retour</button>
 
             </div>
         `;
     });
+
