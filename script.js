@@ -47,4 +47,3 @@ fetch("data.json")
             });
         });
     });
-

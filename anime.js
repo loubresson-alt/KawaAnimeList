@@ -10,17 +10,14 @@ fetch("data.json")
         // Trouver l'anime correspondant
         const anime = data.find(a => a.id === animeId);
 
-        // Si aucun anime trouvé → message d’erreur
         if (!anime) {
             document.getElementById("anime-detail").innerHTML =
                 "<p>Anime introuvable.</p>";
             return;
         }
 
-        // Sélecteur du conteneur
         const container = document.getElementById("anime-detail");
 
-        // Affichage de la page détail
         container.innerHTML = `
         <div class="detail-card">
             <h1>${anime.title}</h1>
@@ -38,6 +35,7 @@ fetch("data.json")
             </div>
         </div>`;
     });
+
 
 
 
