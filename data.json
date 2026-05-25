@@ -62,6 +62,26 @@
     "synopsis": "Une lycéenne sans foyer découvre qu’une famille maudite peut se transformer en animaux du zodiaque, bouleversant son destin autant que le leur.",
 
     "episodes": {
+        "Saison 1": 25,
+        "Saison 2": 25,
+        "Saison 3": 13
+    },
+
+    "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "fantasy", "drame", "comédie"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.png",
+
+    "year": 0,
+    "studio": "",
+    "rating": 0,
+
+    "genres": [],
+    "synopsis": "",
+
+    "episodes": {
         "Saison 1": 0
     },
 
@@ -85,6 +105,5 @@
 
     "tags": []
 }
-
 ]
 
