@@ -18,12 +18,12 @@ fetch("data.json")
         /* --- Genres --- */
         const genresHTML = anime.genres
             .map(g => `<span class="genre-badge">${g}</span>`)
-            .join(" ");
+            .join("");
 
         /* --- Tags --- */
         const tagsHTML = anime.tags
             .map(t => `<span class="tag">${t}</span>`)
-            .join(" ");
+            .join("");
 
         /* --- Saisons & épisodes (format FR) --- */
         const episodesHTML = Object.entries(anime.episodes)
@@ -33,7 +33,7 @@ fetch("data.json")
             })
             .join("");
 
-        /* --- Construction EXACTE comme ta page d’avant --- */
+        /* --- Construction propre et compatible CSS --- */
         container.innerHTML = `
             <div class="detail-card">
 
@@ -47,9 +47,9 @@ fetch("data.json")
                 </div>
 
                 <div class="info-badges">
-                    <span class="badge">${anime.year}</span>
-                    <span class="badge">${anime.studio}</span>
-                    <span class="badge">${anime.rating}</span>
+                    <span class="badge">📅 ${anime.year}</span>
+                    <span class="badge">🏢 ${anime.studio}</span>
+                    <span class="badge">💖 ${anime.rating}</span>
                 </div>
 
                 <h3>Genres</h3>
@@ -72,6 +72,7 @@ fetch("data.json")
             </div>
         `;
     });
+
 
 
 
