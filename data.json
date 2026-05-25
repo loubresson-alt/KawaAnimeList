@@ -1,0 +1,90 @@
+
+[
+    {
+        "id": "jujutsu-kaisen",
+        "title": "Jujutsu Kaisen",
+        "image": "images/jujutsu.png",
+        "genres": ["action", "adventure", "comedy", "supernatural"],
+        "synopsis": "Un lycéen au destin maudit plonge dans un monde d'exorcistes et de fléaux, où chaque combat rapproche un peu plus l'humanité du chaos.",
+        "year": "2020",
+        "episodes": {
+            "season1": 24,
+            "season 2": 23,
+            "season 3": 12
+        },
+        "studio": "MAPPA",
+        "rating": "10/10",
+        "tags": ["JJK","jjk","Jjk", "shonen", "action", "supernatural"]
+    },
+    {
+        "id": "solo-leveling",
+        "title": "Solo Leveling",
+        "image": "images/solo-leveling.png",
+        "genres": ["Action", "Fantasy", "Supernatural", "Adventure", "Combat", "RPG"],
+        "synopsis": "Un chasseur parmi les plus faibles se retrouve doté d'un pouvoir unique : évoluer sans limite.",
+        "year": "2024",
+        "episodes": {
+            "season 1": 12
+        },
+        "studio": "A-1 Pictures",
+        "rating": "9.5/10",
+        "tags": ["Solo Leveling", "action", "fantasy", "supernatural"]
+    },
+    {
+    "id": "ajin",
+    "title": "Ajin",
+    "image": "images/ajin.jpg",
+
+    "year": "2012",
+    "studio": "Polygone Pictures",
+    "rating": "8/10",
+
+    "genres": ["Seinen", "Action", "fantastique", "horreur", "suspense"],
+    "synopsis": "Un lycéen devenu immortel se retrouve traqué par l’humanité et pris dans une guerre menée par un Ajin prêt à tout.",
+
+    "episodes": {
+        "Saison 1": 13,
+        "season 2": 13
+    },
+
+    "tags": ["ajin", "seinen", "action", "fantastique", "horreur", "suspense"]
+},
+{
+    "id": "fruit-basket",
+    "title": "Fruit Basket",
+    "image": "images/fruit-basket.jpg",
+
+    "year": 2001,
+    "studio": "TMS Entertainment",
+    "rating": "10/10",
+
+    "genres": [	"Shōjo", "Romance", "Fantasy", "Drame", "Comédie"],
+    "synopsis": "Une lycéenne sans foyer découvre qu’une famille maudite peut se transformer en animaux du zodiaque, bouleversant son destin autant que le leur.",
+
+    "episodes": {
+        "Saison 1": 0
+    },
+
+    "tags": []
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.png",
+
+    "year": 0,
+    "studio": "",
+    "rating": 0,
+
+    "genres": [],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+    },
+
+    "tags": []
+}
+
+]
+
