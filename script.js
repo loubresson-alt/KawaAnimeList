@@ -1,56 +1,50 @@
+// Charger le fichier JSON
 fetch("data.json")
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
+
         const container = document.getElementById("anime-list");
+        const genreFilter = document.getElementById("genre-filter");
 
-        data.forEach(anime => {
-            const card = document.createElement("div");
-            card.classList.add("card");
+        // --- AFFICHER TOUTES LES CARDS ---
+        function displayAnimes(list) {
+            container.innerHTML = "";
 
-           card.innerHTML = `
-    <img src="${anime.image}" alt="${anime.title}">
-    <h3>${anime.title}</h3>
+            list.forEach(anime => {
+                container.innerHTML += `
+                    <div class="card" 
+                         data-genres="${anime.genres.join(',').toLowerCase()}">
 
-    <div class="info">
-        <span class="year">🌸 ${anime.year}</span>
-        <span class="studio">⭐ ${anime.studio}</span>
-        <span class="rating">❤️ ${anime.rating}</span>
-    </div>
+                        <img src="${anime.image}" class="card-img">
+                        <h3 class="card-title">${anime.title}</h3>
 
-    <button class="voir-plus" data-id="${anime.id}">Voir plus</button>
-`;
-            container.appendChild(card);
-            card.querySelector(".voir-plus").addEventListener("click", () => {
-                window.location.href = `anime.html?id=${anime.id}`;
+                        <p class="card-year">📅 ${anime.year}</p>
+                        <p class="card-studio">🏵️ ${anime.studio}</p>
+                        <p class="card-rating">💖 ${anime.rating}</p>
+
+                        <a href="anime.html?id=${anime.id}" class="card-btn">
+                            Voir plus
+                        </a>
+                    </div>
+                `;
             });
-        });
+        }
 
-        const searchInput = document.getElementById("search");
+        // Afficher tout au début
+        displayAnimes(data);
 
-        searchInput.addEventListener("input", () => {
-            const value = searchInput.value.toLowerCase();
+        // --- FILTRE PAR GENRE ---
+        genreFilter.addEventListener("change", () => {
+            const selected = genreFilter.value.toLowerCase();
 
             document.querySelectorAll(".card").forEach(card => {
-                const title = card.querySelector("h3").textContent.toLowerCase();
-                card.style.display = title.includes(value) ? "block" : "none";
+                const genres = card.dataset.genres.split(",");
+
+                card.style.display =
+                    selected === "" || genres.includes(selected)
+                        ? "block"
+                        : "none";
             });
         });
-
-       const genreFilter = document.getElementById("genre-filter");
-
-genreFilter.addEventListener("change", () => {
-    const genre = genreFilter.value.toLowerCase();
-
-    document.querySelectorAll(".card").forEach(card => {
-        const genres = card.dataset.genres
-            .toLowerCase()      // 🔥 on met tout en minuscules
-            .split(",");
-
-        card.style.display =
-            genre === "" || genres.includes(genre)
-                ? "block"
-                : "none";
     });
-});
 
-    });

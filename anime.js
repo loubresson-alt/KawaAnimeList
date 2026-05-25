@@ -3,49 +3,40 @@ fetch("data.json")
     .then(res => res.json())
     .then(data => {
 
-        const container = document.getElementById("anime-container");
-        const genreFilter = document.getElementById("genre-filter");
+        // Récupérer l'ID dans l'URL
+        const params = new URLSearchParams(window.location.search);
+        const animeId = params.get("id");
 
-        // --- AFFICHER TOUTES LES CARDS ---
-        function displayAnimes(list) {
-            container.innerHTML = "";
+        // Trouver l'anime correspondant
+        const anime = data.find(a => a.id === animeId);
 
-            list.forEach(anime => {
-                container.innerHTML += `
-                    <div class="card" 
-                         data-genres="${anime.genres.join(',').toLowerCase()}">
-
-                        <img src="${anime.image}" class="card-img">
-                        <h3 class="card-title">${anime.title}</h3>
-
-                        <p class="card-year">📅 ${anime.year}</p>
-                        <p class="card-studio">🏵️ ${anime.studio}</p>
-                        <p class="card-rating">💖 ${anime.rating}</p>
-
-                        <a href="anime.html?id=${anime.id}" class="card-btn">
-                            Voir plus
-                        </a>
-                    </div>
-                `;
-            });
+        // Si aucun anime trouvé → message d’erreur
+        if (!anime) {
+            document.getElementById("anime-detail").innerHTML =
+                "<p>Anime introuvable.</p>";
+            return;
         }
 
-        // Afficher tout au début
-        displayAnimes(data);
+        // Sélecteur du conteneur
+        const container = document.getElementById("anime-detail");
 
-        // --- FILTRE PAR GENRE ---
-        genreFilter.addEventListener("change", () => {
-            const selected = genreFilter.value.toLowerCase();
+        // Affichage de la page détail
+        container.innerHTML = `
+        <div class="detail-card">
+            <h1>${anime.title}</h1>
+            <img src="${anime.image}" class="detail-img">
 
-            document.querySelectorAll(".card").forEach(card => {
-                const genres = card.dataset.genres.split(",");
+            <h3 class="synopsis-title">🌸 Synopsis</h3>
+            <div class="synopsis-box">
+                <p>${anime.synopsis}</p>
+            </div>
 
-                card.style.display =
-                    selected === "" || genres.includes(selected)
-                        ? "block"
-                        : "none";
-            });
-        });
+            <div class="info-badges">
+                <span class="badge">📅 ${anime.year}</span>
+                <span class="badge">🏵️ ${anime.studio}</span>
+                <span class="badge">💖 ${anime.rating}</span>
+            </div>
+        </div>`;
     });
 
 
