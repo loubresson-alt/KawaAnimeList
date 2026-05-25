@@ -79,6 +79,42 @@
     "rating": "5/10",
 
     "genres": [	"Comédie", "drame", "mystère", "polar", "thriller"],
+    "synopsis": "Un détective milliardaire aux moyens illimités fait équipe avec un policier intègre, résolvant les affaires les plus dangereuses en brûlant de l’argent comme d’autres respirent.",
+
+    "episodes": {
+        "Saison 1": 11
+    },
+
+    "tags": ["action", "comédie", "drame", "mystère", "polar", "thriller", "The Millionaire Detective - Balance Unlimited", "the millionaire detective - balance unlimited", "the millionaire detective", "TMD"]
+},
+{
+    "id": "gachiakuta",
+    "title": "Gachiakuta",
+    "image": "images/gachiakuta.jpg",
+
+    "year": 2025,
+    "studio": "Bones",
+    "rating": "9.5/10",
+
+    "genres": ["Shōnen", "drame", "aventure", "fantasy"],
+    "synopsis": "Accusé à tort et jeté dans un monde de déchets, un jeune paria doit survivre en maîtrisant un pouvoir né de la haine et des rebuts de l’humanité.",
+
+    "episodes": {
+        "Saison 1": 24
+    },
+
+    "tags": ["gachiakuta", "GACHI", "gachi", "shōnen", "drame", "aventure", "fantasy"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.png",
+
+    "year": 0,
+    "studio": "",
+    "rating": 0,
+
+    "genres": [],
     "synopsis": "",
 
     "episodes": {
