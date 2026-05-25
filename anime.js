@@ -3,89 +3,49 @@ fetch("data.json")
     .then(res => res.json())
     .then(data => {
 
-        // Récupérer l'ID dans l'URL
-        const params = new URLSearchParams(window.location.search);
-        const animeId = params.get("id");
+        const container = document.getElementById("anime-container");
+        const genreFilter = document.getElementById("genre-filter");
 
-        // Trouver l'anime correspondant
-        const anime = data.find(a => a.id === animeId);
+        // --- AFFICHER TOUTES LES CARDS ---
+        function displayAnimes(list) {
+            container.innerHTML = "";
 
-        // Sélecteur du conteneur
-        const container = document.getElementById("anime-detail");
+            list.forEach(anime => {
+                container.innerHTML += `
+                    <div class="card" 
+                         data-genres="${anime.genres.join(',').toLowerCase()}">
 
-        // Affichage de la page détail
-        container.innerHTML = `
-            <div class="detail-card">
+                        <img src="${anime.image}" class="card-img">
+                        <h3 class="card-title">${anime.title}</h3>
 
-                <h1>${anime.title}</h1>
+                        <p class="card-year">📅 ${anime.year}</p>
+                        <p class="card-studio">🏵️ ${anime.studio}</p>
+                        <p class="card-rating">💖 ${anime.rating}</p>
 
-                <button class="fav-btn" data-id="${anime.id}">💗</button>
-
-                <img src="${anime.image}" class="detail-img">
-
-             <h3 class="synopsis-title">🌸 Synopsis</h3>
-<div class="synopsis-box">
-    <span class="synopsis-sticker">💗</span>
-    <p>${anime.synopsis}</p>
-</div>
-
-
-
-                <div class="info-badges">
-                    <span class="badge">🌸 ${anime.year}</span>
-                    <span class="badge">⭐ ${anime.studio}</span>
-                    <span class="badge">❤️ ${anime.rating}</span>
-                </div>
-
-                <h3>Genres</h3>
-                <div class="genres">
-                    ${anime.genres.map(g => `<span class="genre-badge">${g}</span>`).join("")}
-                </div>
-
-                <h3>Épisodes</h3>
-                <ul class="episodes-list">
-                    ${Object.entries(anime.episodes)
-                        .map(([season, count]) => `<li>${season} : ${count} épisodes</li>`)
-                        .join("")}
-                </ul>
-
-                <h3>Tags</h3>
-                <div class="tags">
-                    ${anime.tags.map(t => `<span class="tag">${t}</span>`).join("")}
-                </div>
-
-                <button onclick="history.back()">⬅ Retour</button>
-            </div>
-        `;
-
-        // --- Gestion des favoris ---
-        const favBtn = document.querySelector(".fav-btn");
-
-        let favoris = JSON.parse(localStorage.getItem("favoris")) || [];
-
-        // Si déjà en favoris → afficher 💖
-        if (favoris.includes(anime.id)) {
-            favBtn.classList.add("active");
-            favBtn.textContent = "💖";
+                        <a href="anime.html?id=${anime.id}" class="card-btn">
+                            Voir plus
+                        </a>
+                    </div>
+                `;
+            });
         }
 
-        // Clic sur le bouton favori
-        favBtn.addEventListener("click", () => {
-            if (favoris.includes(anime.id)) {
-                // Retirer des favoris
-                favoris = favoris.filter(id => id !== anime.id);
-                favBtn.classList.remove("active");
-                favBtn.textContent = "💗";
-            } else {
-                // Ajouter aux favoris
-                favoris.push(anime.id);
-                favBtn.classList.add("active");
-                favBtn.textContent = "💖";
-            }
+        // Afficher tout au début
+        displayAnimes(data);
 
-            localStorage.setItem("favoris", JSON.stringify(favoris));
+        // --- FILTRE PAR GENRE ---
+        genreFilter.addEventListener("change", () => {
+            const selected = genreFilter.value.toLowerCase();
+
+            document.querySelectorAll(".card").forEach(card => {
+                const genres = card.dataset.genres.split(",");
+
+                card.style.display =
+                    selected === "" || genres.includes(selected)
+                        ? "block"
+                        : "none";
+            });
         });
-
     });
 
 
