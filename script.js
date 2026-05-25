@@ -31,17 +31,20 @@ fetch("data.json")
 
         // Fonction de filtrage
         function filter() {
-            const searchValue = searchInput.value.toLowerCase();
-            const genreValue = genreFilter.value;
+            const searchValue = searchInput.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const genreValue = genreFilter.value.toLowerCase();
 
             const filtered = data.filter(anime => {
+
+                // Recherche texte (titre + genres)
                 const matchSearch =
                     anime.title.toLowerCase().includes(searchValue) ||
                     anime.genres.some(g => g.toLowerCase().includes(searchValue));
 
+                // Filtre genre
                 const matchGenre =
                     genreValue === "all" ||
-                    anime.genres.includes(genreValue);
+                    anime.genres.some(g => g.toLowerCase() === genreValue);
 
                 return matchSearch && matchGenre;
             });
@@ -53,4 +56,5 @@ fetch("data.json")
         searchInput.addEventListener("input", filter);
         genreFilter.addEventListener("change", filter);
     });
+
 
