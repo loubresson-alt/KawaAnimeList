@@ -143,6 +143,24 @@
     "tags": ["YONA", "yona", "yona princesse de l'aube", "shōjo", "action", "aventure", "romance", "drame", "pouvoirs surnaturels"]
 },
 {
+    "id": "Amaama-to-Inazuma",
+    "title": "Amaama to Inazuma",
+    "image": "images/Amaama to Inazuma.jpg",
+
+    "year": 2016,
+    "studio": "TMS Entertainment",
+    "rating": "5/10",
+
+    "genres": ["Tranche de vie", "Comédie", "Famille"],
+    "synopsis": "Un père veuf apprend à cuisiner pour sa fille grâce à une élève passionnée, transformant chaque repas en un moment de guérison.",
+
+    "episodes": {
+        "Saison 1": 12
+    },
+
+    "tags": ["amaama to inazuma", "ATI", "ati", "tranche de vie", "comédie", "famille"]
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
