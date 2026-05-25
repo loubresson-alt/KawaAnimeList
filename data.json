@@ -48,8 +48,8 @@
         "Saison 1": 13,
         "season 2": 13
     },
-"platform": "Netflix",
-"tags": ["ajin", "seinen", "action", "fantastique", "horreur", "suspense"]
+    "platform": "Netflix",
+    "tags": ["ajin", "seinen", "action", "fantastique", "horreur", "suspense"]
 },
 {
     "id": "fruit-basket",
@@ -68,7 +68,7 @@
         "Saison 2": 25,
         "Saison 3": 13
     },
-"platform": "Crunchyroll",
+    "platform": "Crunchyroll",
 
     "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "fantasy", "drame", "comédie"]
 },
@@ -161,7 +161,7 @@
     "episodes": {
         "Saison 1": 12
     },
-"platform": "Anime Sama",
+    "platform": "Anime Sama",
     "tags": ["amaama to inazuma", "ATI", "ati", "tranche de vie", "comédie", "famille"]
 },
 {
@@ -240,7 +240,7 @@
     "episodes": {
         "Saison 1": 12
     },
-"platform": "Crunchyroll",
+    "platform": "Crunchyroll",
     "tags": ["shoujo", "tranche de vie", "sport", "drame", "backflip", "BACKFLIP"]
 },
 {
@@ -276,7 +276,7 @@
     "episodes": {
         "Saison 1": 170
     },
-"platform": "Crunchyroll",
+    "platform": "Crunchyroll",
     "tags": ["fantastique", "action", "shōnen", "aventure", "magie", "comédie", "black clover", "BC"]
 },
 {
@@ -314,7 +314,6 @@
         "Saison 2": 12,
         "Saison 3": 12
     },
-
     "platform": "Anime Sama",
     "tags": ["action", "aventure", "fantastique", "surnaturel", "comédie", "bungou stray dogs", "BSD"]
 },
@@ -333,10 +332,64 @@
     "episodes": {
         "Saison 1": 159
     },
-"platform": "Crunchyroll",
+    "platform": "Crunchyroll",
     "tags": ["AC", "ac", "my hero academia", "shōnen", "action", "aventure", "super-pouvoirs", "comédie"]
 },
 {
+    "id": "charlotte",
+    "title": "Charlotte",
+    "image": "images/Charlotte.jpg",
+
+    "year": 2015,
+    "studio": "P.A. Works",
+    "rating": "10/10",
+
+    "genres": ["Drame" , "Surnaturel", "Comédie"],
+    "synopsis": "Un adolescent capable de voler les pouvoirs des autres découvre que son don cache une vérité dangereuse qui pourrait sauver… ou condamner le monde.",
+
+    "episodes":{
+        "Saison 1" : 13
+    },
+    "platform": "Anime Sama",
+    "tags": ["charlotte", "Charlotte", "drame", "surnaturel", "comédie"]
+},
+{
+    "id": "darling-in-the-franxx",
+    "title": "Darling in the Franxx",
+    "image": "images/Darling in the Franxx.jpg",
+
+    "year": 2018,
+    "studio": "TRIGGER",
+    "rating": "10/10",
+
+    "genres": ["Mecha", "Romance", "Science-Fiction", "Action", "psychologique"],
+    "synopsis": "Dans un monde ravagé, des enfants-pilotes luttent pour survivre, tandis qu'un garçon brisé et une fille démoniaque se découvrent un destin lié entre amour, douleur et rébellion.",
+
+    "episodes": {
+        "Saison 1": 24
+    },
+    "platform": "Crunchyroll",
+    "tags": ["mecha", "romance", "science-fiction", "action", "psychologique", "darling in the franxx", "DITF"]
+},
+{
+    "id": "death-note",
+    "title": "Death Note",
+    "image": "images/Death Note.jpg",
+
+    "year": 2006,
+    "studio": "Madhouse",
+    "rating": "9/10",
+
+    "genres": ["Drame", "Psychologique", "Suspense", "Thriller"],
+    "synopsis": "Un lycéen découvre un carnet capable de tuer et engage un duel mental mortel avec le plus grand détective du monde.",
+
+    "episodes": {
+        "Saison 1": 37
+    },
+    "platform": "Netflix",
+    "tags": ["death note", "DEATH NOTE", "drame", "psychologique", "suspense", "thriller"]
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
@@ -351,24 +404,7 @@
     "episodes": {
         "Saison 1": 0
     },
-
-    "tags": []
-},{
-    "id": "",
-    "title": "",
-    "image": "images/.png",
-
-    "year": 0,
-    "studio": "",
-    "rating": 0,
-
-    "genres": [],
-    "synopsis": "",
-
-    "episodes": {
-        "Saison 1": 0
-    },
-
+    "platform": "",
     "tags": []
 },
 {
@@ -386,7 +422,7 @@
     "episodes": {
         "Saison 1": 0
     },
-
+    "platform": "",
     "tags": []
 }
 
