@@ -201,6 +201,26 @@
     "tags": ["shōnen", "action", "démons", "surnaturel", "blue exorcist", "blue exorcist", "BE"]
 },
 {
+    "id": "Baki",
+    "title": "Baki",
+    "image": "images/Baki.jpg",
+
+    "year": 2018,
+    "studio": "TMS Entertainment",
+    "rating": "6/10",
+
+    "genres": ["Action", "Drame","sport", "arts martiaux"],
+    "synopsis": "Un jeune homme déterminé à devenir le meilleur lutteur de son école, découvre un monde de combats où la force et la volonté sont les seules armes disponibles.",
+
+    "episodes": {
+        "Saison 1": 39,
+        "Saison 2": 39,
+        "Saison 3": 13
+    },
+
+    "tags": ["baki", "BAKI", "action", "drame", "sport", "arts martiaux"]
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
