@@ -18,24 +18,22 @@ fetch("data.json")
         /* --- Genres --- */
         const genresHTML = anime.genres
             .map(g => `<span class="genre-badge">${g}</span>`)
-            .join("");
+            .join(" ");
 
         /* --- Tags --- */
         const tagsHTML = anime.tags
             .map(t => `<span class="tag">${t}</span>`)
-            .join("");
+            .join(" ");
 
         /* --- Saisons & épisodes (format FR) --- */
         const episodesHTML = Object.entries(anime.episodes)
             .map(([saison, nb]) => {
-                const saisonFR = saison
-                    .replace("season", "Saison ")
-                    .replace("Saison ", "Saison ");
+                const saisonFR = saison.replace("season", "Saison ");
                 return `<li>${saisonFR} : ${nb} épisodes</li>`;
             })
             .join("");
 
-        /* --- Construction EXACTE comme ta page --- */
+        /* --- Construction EXACTE comme ta page d’avant --- */
         container.innerHTML = `
             <div class="detail-card">
 
@@ -55,21 +53,26 @@ fetch("data.json")
                 </div>
 
                 <h3>Genres</h3>
-                <div class="genres">${genresHTML}</div>
+                <div class="genres">
+                    ${genresHTML}
+                </div>
 
-                <h3>Épisodes</h3>
+                <h3>Saisons & épisodes</h3>
                 <ul class="episodes-list">
                     ${episodesHTML}
                 </ul>
 
                 <h3>Tags</h3>
-                <div class="tags">${tagsHTML}</div>
+                <div class="tags">
+                    ${tagsHTML}
+                </div>
 
                 <button class="voir-plus">→ Regarder</button>
 
             </div>
         `;
     });
+
 
 
 
