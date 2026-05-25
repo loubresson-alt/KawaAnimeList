@@ -190,10 +190,10 @@ h1::before {
     box-shadow: 0 0 15px rgba(255, 182, 218, 0.6);
 }
 .detail-card h3 {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 10px;
     color: #ff4fa3;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     background: #ffd6ec;
@@ -208,7 +208,7 @@ h1::before {
 
 /* Synopsis */
 .synopsis-title {
-    font-size: 24px;
+    font-size: 22px;
     color: #ff4fa3;
     font-weight: 700;
     background: #ffd6ec;
@@ -218,6 +218,7 @@ h1::before {
     margin: 20px auto 10px;
     box-shadow: 0 0 10px rgba(255, 150, 200, 0.4);
 }
+
 
 
 .synopsis-box {
@@ -324,4 +325,8 @@ h1::before {
 .voir-plus:hover {
     background: #ff3fa5;
     transform: scale(1.05);
+}
+.section-title {
+    all: unset;
+    display: block;
 }
