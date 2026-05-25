@@ -221,6 +221,60 @@
     "tags": ["baki", "BAKI", "action", "drame", "sport", "arts martiaux"]
 },
 {
+    "id": "backflip",
+    "title": "Backflip",
+    "image": "images/Backflip.jpg",
+
+    "year": 2021,
+    "studio": "ZEXCS",
+    "rating": "4/10",
+
+    "genres": ["shoujo","Tranche de vie", "Sport", "Drame"],
+    "synopsis": "Un lycéen découvre la gymnastique rythmique masculine et rejoint une équipe prête à tout pour atteindre des sommets grâce à la force du collectif.",
+
+    "episodes": {
+        "Saison 1": 12
+    },
+
+    "tags": ["shoujo", "tranche de vie", "sport", "drame", "backflip", "BACKFLIP"]
+},
+{
+    "id": "banana-fish",
+    "title": "Banana Fish",
+    "image": "images/Banana Fish.jpg",
+
+    "year": 2018,
+    "studio": "MAPPA",
+    "rating": "8.5/10",
+
+    "genres": ["psychologique", "action", "drame", "suspense","thriller", "crime"],
+    "synopsis": "Un jeune chef de gang de New York et un photographe japonais s'allient pour démêler les mystères d'une drogue mortelle appelée 'Banana Fish', tout en affrontant des ennemis impitoyables.",
+
+    "episodes": {
+        "Saison 1": 24
+    },
+
+    "tags": ["psychologique", "action", "drame", "suspense", "thriller", "crime", "banana fish", "BF"]
+},
+{
+    "id": "black-clover",
+    "title": "Black Clover",
+    "image": "images/Black Clover.jpg",
+
+    "year": 2017,
+    "studio": "Studio Pierrot",
+    "rating": "7/10",
+
+    "genres": ["Fantastique", "Action", "Shōnen", "Aventure", "Magie","Comédie"],
+    "synopsis": "Un jeune garçon rêve de devenir le meilleur magicien de son royaume, mais il est le seul à ne pas posséder de pouvoir magique.",
+
+    "episodes": {
+        "Saison 1": 170
+    },
+
+    "tags": ["fantastique", "action", "shōnen", "aventure", "magie", "comédie", "black clover", "BC"]
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
