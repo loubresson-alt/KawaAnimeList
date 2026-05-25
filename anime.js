@@ -33,7 +33,7 @@ fetch("data.json")
             })
             .join("");
 
-        /* --- Construction propre et compatible CSS --- */
+        /* --- Construction complète de la page détail --- */
         container.innerHTML = `
             <div class="detail-card">
 
@@ -52,17 +52,17 @@ fetch("data.json")
                     <span class="badge">💖 ${anime.rating}</span>
                 </div>
 
-                <h3>Genres</h3>
+                <h3 class="section-title">Genres</h3>
                 <div class="genres">
                     ${genresHTML}
                 </div>
 
-                <h3>Saisons & épisodes</h3>
+                <h3 class="section-title">Saisons & épisodes</h3>
                 <ul class="episodes-list">
                     ${episodesHTML}
                 </ul>
 
-                <h3>Tags</h3>
+                <h3 class="section-title">Tags</h3>
                 <div class="tags">
                     ${tagsHTML}
                 </div>
@@ -72,10 +72,3 @@ fetch("data.json")
             </div>
         `;
     });
-
-
-
-
-
-
-
