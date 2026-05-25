@@ -97,13 +97,50 @@
     "rating": "9.5/10",
 
     "genres": ["Shōnen", "drame", "aventure", "fantasy"],
-    "synopsis": "Accusé à tort et jeté dans un monde de déchets, un jeune paria doit survivre en maîtrisant un pouvoir né de la haine et des rebuts de l’humanité.",
+    "synopsis": "Accusé à tort et jeté dans un monde de déchets, un jeune paria doit survivre en maîtrisant un pouvoir né de la haine et des rebuts de l'humanité.",
 
     "episodes": {
         "Saison 1": 24
     },
 
     "tags": ["gachiakuta", "GACHI", "gachi", "shōnen", "drame", "aventure", "fantasy"]
+},
+{
+    "id": "Snow-White-with-the-Red-Hair",
+    "title": "Snow White with the Red Hair",
+    "image": "images/Snow-White-with-the-Red-Hair.jpg",
+
+    "year": 2015,
+    "studio": "Bones",
+    "rating": "6.5/10",
+
+    "genres": ["Shōjo", "Fantasy", "Romance"],
+    "synopsis": "Une herboriste aux cheveux rouges fuit un prince capricieux et trouve son destin auprès d'un prince qui voit en elle bien plus qu'une simple roturière.",
+
+    "episodes": {
+        "Saison 1": 12,
+        "Saison 2": 12
+    },
+
+    "tags": ["SWRH", "swrh", "snow white with the red hair", "shōjo", "fantasy", "romance"]
+},
+{
+    "id": "Yona-princesse-de-l'aube",
+    "title": "Yona, Princesse de l'Aube",
+    "image": "images/Yona-princesse-de-l'aube.jpg",
+
+    "year": 2014,
+    "studio": "Pierrot",
+    "rating": "6.5/10",
+
+    "genres": ["Shōjo", "Action", "Aventure", "Romance", "Drame", "Pouvoirs surnaturels"],
+    "synopsis": "Chassée de son royaume après la trahison de l'homme qu'elle aimait, une princesse déchue entreprend un voyage pour devenir assez forte pour reprendre son destin.",
+
+    "episodes": {
+        "Saison 1": 24
+    },
+
+    "tags": ["YONA", "yona", "yona princesse de l'aube", "shōjo", "action", "aventure", "romance", "drame", "pouvoirs surnaturels"]
 },
 {
     "id": "",
@@ -141,5 +178,6 @@
 
     "tags": []
 }
+
 ]
 
