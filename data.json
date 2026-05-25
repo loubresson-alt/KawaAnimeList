@@ -275,6 +275,84 @@
     "tags": ["fantastique", "action", "shōnen", "aventure", "magie", "comédie", "black clover", "BC"]
 },
 {
+    "id": "erased",
+    "title": "Erased",
+    "image": "images/Erased.jpg",
+
+    "year": 2016,
+    "studio": "A-1 Pictures",
+    "rating": "7.5/10",
+
+    "genres": ["Drame","Psychologique", "Suspense", "Thriller"],
+    "synopsis": "Propulsé dans son passé après un meurtre, un homme doit revivre son enfance pour empêcher une série de tragédies.",
+
+    "episodes": {
+        "Saison 1": 12
+    },
+
+    "tags": ["erased", "ERASED", "drame", "psychologique", "suspense", "thriller"]
+},
+{
+    "id": "bungou-stray-dogs",
+    "title": "Bungou Stray Dogs",
+    "image": "images/Bungou Stray Dogs.jpg",
+
+    "year": 2016,
+    "studio": "Bones",
+    "rating": "6/10",
+
+    "genres": ["Action", "Aventure", "Fantastique", "Surnaturel", "Comédie"],
+    "synopsis": "Un orphelin doté d'un pouvoir dangereux rejoint une agence de détectives aux capacités surnaturelles, plongé dans une guerre de talents entre organisations rivales.",
+
+    "episodes": {
+        "Saison 1": 12,
+        "Saison 2": 12,
+        "Saison 3": 12
+    },
+
+    "tags": ["action", "aventure", "fantastique", "surnaturel", "comédie", "bungou stray dogs", "BSD"]
+},
+{
+    "id": "my-hero-academia",
+    "title": "My Hero Academia",
+    "image": "images/My Hero Academia.jpg",
+
+    "year": 2016,
+    "studio": "Bones",
+    "rating": "9/10",
+
+    "genres": ["Shōnen", "Action", "Aventure", "Super-pouvoirs", "Comédie"],
+    "synopsis": "Dans un monde où presque tout le monde possède un pouvoir, un garçon né sans alter se jure de devenir un héros capable d'inspirer le monde entier.",
+
+    "episodes": {
+        "Saison 1": 13,
+        "Saison 2": 25,
+        "Saison 3": 25,
+        "Saison 4": 25,
+        "Saison 5": 25,
+        "Saison 6": 25
+    },
+
+    "tags": ["AC", "ac", "my hero academia", "shōnen", "action", "aventure", "super-pouvoirs", "comédie"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.png",
+
+    "year": 0,
+    "studio": "",
+    "rating": 0,
+
+    "genres": [],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+    },
+
+    "tags": []
+},{
     "id": "",
     "title": "",
     "image": "images/.png",
