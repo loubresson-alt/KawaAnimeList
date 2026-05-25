@@ -161,22 +161,23 @@
     "tags": ["amaama to inazuma", "ATI", "ati", "tranche de vie", "comédie", "famille"]
 },
 {
-    "id": "",
-    "title": "",
-    "image": "images/.png",
+    "id": "Assassination-Classroom",
+    "title": "Assassination Classroom",
+    "image": "images/Assassination Classroom.jpg",
 
-    "year": 0,
-    "studio": "",
-    "rating": 0,
+    "year": 2015,
+    "studio": "Lerche",
+    "rating": "8/10",
 
-    "genres": [],
-    "synopsis": "",
+    "genres": ["Shōnen", "Action", "Comédie", "Fantastique", "Scolaire"],
+    "synopsis": "Une classe d'élèves doit assassiner leur professeur extraterrestre surpuissant avant qu'il ne détruise la Terre, tout en apprenant à devenir la meilleure version d'eux'mêmes.",
 
     "episodes": {
-        "Saison 1": 0
+        "Saison 1": 22,
+        "Saison 2": 25
     },
 
-    "tags": []
+    "tags": ["action", "comédie", "fantastique", "scolaire", "assassination classroom", "assassination classroom", "AC" ]
 },
 {
     "id": "",
