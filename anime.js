@@ -15,35 +15,27 @@ fetch("data.json")
 
         const container = document.getElementById("anime-detail");
 
-        /* --- GENRES --- */
+        /* --- Genres --- */
         const genresHTML = anime.genres
             .map(g => `<span class="genre-badge">${g}</span>`)
             .join("");
 
-        /* --- TAGS --- */
+        /* --- Tags --- */
         const tagsHTML = anime.tags
-            ? anime.tags.map(t => `<span class="tag">${t}</span>`).join("")
-            : "";
+            .map(t => `<span class="tag">${t}</span>`)
+            .join("");
 
-        /* --- SAISONS & ÉPISODES (renommage FR) --- */
-        let episodesHTML = "";
-        if (anime.episodes) {
-            episodesHTML = `
-                <h3 class="mini-header"><span>📺 Saisons & épisodes</span></h3>
-                <ul class="episodes-list">
-                    ${Object.entries(anime.episodes)
-                        .map(([saison, nb]) => {
-                            const saisonFR = saison
-                                .replace("season", "Saison ")
-                                .replace("Saison ", "Saison ");
-                            return `<li>${saisonFR} : ${nb} épisodes</li>`;
-                        })
-                        .join("")}
-                </ul>
-            `;
-        }
+        /* --- Saisons & épisodes (format FR) --- */
+        const episodesHTML = Object.entries(anime.episodes)
+            .map(([saison, nb]) => {
+                const saisonFR = saison
+                    .replace("season", "Saison ")
+                    .replace("Saison ", "Saison ");
+                return `<li>${saisonFR} : ${nb} épisodes</li>`;
+            })
+            .join("");
 
-        /* --- PAGE DÉTAIL --- */
+        /* --- Construction EXACTE comme ta page --- */
         container.innerHTML = `
             <div class="detail-card">
 
@@ -51,25 +43,34 @@ fetch("data.json")
 
                 <img src="${anime.image}" class="detail-img">
 
-                <div class="info-badges">
-                    <span class="badge">📅 ${anime.year}</span>
-                    <span class="badge">🏢 ${anime.studio}</span>
-                    <span class="badge">💖 ${anime.rating}</span>
-                </div>
-
-                <div class="genres">${genresHTML}</div>
-                <div class="tags">${tagsHTML}</div>
-
                 <h3 class="synopsis-title">Synopsis</h3>
                 <div class="synopsis-box">
                     <p>${anime.synopsis}</p>
                 </div>
 
-                ${episodesHTML}
+                <div class="info-badges">
+                    <span class="badge">${anime.year}</span>
+                    <span class="badge">${anime.studio}</span>
+                    <span class="badge">${anime.rating}</span>
+                </div>
+
+                <h3>Genres</h3>
+                <div class="genres">${genresHTML}</div>
+
+                <h3>Épisodes</h3>
+                <ul class="episodes-list">
+                    ${episodesHTML}
+                </ul>
+
+                <h3>Tags</h3>
+                <div class="tags">${tagsHTML}</div>
+
+                <button class="voir-plus">→ Regarder</button>
 
             </div>
         `;
     });
+
 
 
 
