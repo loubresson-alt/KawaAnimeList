@@ -330,3 +330,8 @@ h1::before {
     all: unset;
     display: block;
 }
+.card-platform {
+    font-size: 0.95rem;
+    color: #ff80c8;
+    margin-top: 5px;
+}

@@ -19,8 +19,10 @@ fetch("data.json")
                     <p class="card-year">${anime.year}</p>
                     <p class="card-studio">${anime.studio}</p>
                     <p class="card-rating">${anime.rating}</p>
+                    <p class="card-platform">🎬 ${anime.platform}</p>
                     <a class="card-btn" href="anime.html?id=${anime.id}">Voir plus</a>
                 `;
+                
 
                 grid.appendChild(card);
             });
