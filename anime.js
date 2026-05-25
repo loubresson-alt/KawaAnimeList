@@ -15,7 +15,17 @@ fetch("data.json")
 
         const container = document.getElementById("anime-detail");
 
-        // Construction de la liste des épisodes
+        // --- Genres ---
+        const genresHTML = anime.genres
+            .map(g => `<span class="genre-badge">${g}</span>`)
+            .join("");
+
+        // --- Tags ---
+        const tagsHTML = anime.tags
+            ? anime.tags.map(t => `<span class="tag">${t}</span>`).join("")
+            : "";
+
+        // --- Saisons & épisodes ---
         let episodesHTML = "";
         if (anime.episodes) {
             episodesHTML = `
@@ -28,30 +38,7 @@ fetch("data.json")
             `;
         }
 
-        // Construction des genres
-        let genresHTML = "";
-        if (anime.genres) {
-            genresHTML = `
-                <div class="genres">
-                    ${anime.genres
-                        .map(g => `<span class="genre-badge">${g}</span>`)
-                        .join("")}
-                </div>
-            `;
-        }
-
-        // Construction des tags
-        let tagsHTML = "";
-        if (anime.tags) {
-            tagsHTML = `
-                <div class="tags">
-                    ${anime.tags
-                        .map(t => `<span class="tag">${t}</span>`)
-                        .join("")}
-                </div>
-            `;
-        }
-
+        // --- Construction de la page ---
         container.innerHTML = `
             <div class="detail-card">
 
@@ -65,8 +52,8 @@ fetch("data.json")
                     <span class="badge">💖 ${anime.rating}</span>
                 </div>
 
-                ${genresHTML}
-                ${tagsHTML}
+                <div class="genres">${genresHTML}</div>
+                <div class="tags">${tagsHTML}</div>
 
                 <h3 class="synopsis-title">Synopsis</h3>
                 <div class="synopsis-box">
@@ -78,8 +65,6 @@ fetch("data.json")
             </div>
         `;
     });
-
-
 
 
 
