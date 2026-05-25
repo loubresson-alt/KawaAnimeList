@@ -36,16 +36,21 @@ fetch("data.json")
             });
         });
 
-        const genreFilter = document.getElementById("genre-filter");
+       const genreFilter = document.getElementById("genre-filter");
 
-        genreFilter.addEventListener("change", () => {
-            const genre = genreFilter.value.toLowerCase();
+genreFilter.addEventListener("change", () => {
+    const genre = genreFilter.value.toLowerCase();
 
-            document.querySelectorAll(".card").forEach(card => {
-                const genres = card.dataset.genres.split(",");
-                card.style.display = genre === "" || genres.includes(genre)
-                    ? "block"
-                    : "none";
-            });
-        });
+    document.querySelectorAll(".card").forEach(card => {
+        const genres = card.dataset.genres
+            .toLowerCase()      // 🔥 on met tout en minuscules
+            .split(",");
+
+        card.style.display =
+            genre === "" || genres.includes(genre)
+                ? "block"
+                : "none";
+    });
+});
+
     });
