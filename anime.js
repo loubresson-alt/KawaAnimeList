@@ -67,7 +67,7 @@ fetch("data.json")
                     ${tagsHTML}
                 </div>
 
-                <button class="voir-plus" onclick="window.location.href='index.html'">← Retour</button>
+                <button class="voir-plus" onclick="history.back()">← Retour</button>
 
             </div>
         `;
