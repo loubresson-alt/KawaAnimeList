@@ -47,14 +47,12 @@ fetch("data.json")
                 </div>
 
                 <div class="info-badges">
-                    <span class="badge">📅 ${anime.year}</span>
-                    <span class="badge">🏢 ${anime.studio}</span>
-                    <span class="badge">💖 ${anime.rating}</span>
-                    <span class="badge">🎬 <a href="${anime.platform.url}" target="_blank">${anime.platform.name}</a>
-</span>
+    <span class="badge">📅 ${anime.year}</span>
+    <span class="badge">🏢 ${anime.studio}</span>
+    <span class="badge">💖 ${anime.rating}</span>
+    <span class="badge">🎬 <a href="${anime.platform.url}" target="_blank">${anime.platform.name}</a></span>
+</div>
 
-
-                </div>
 
                 <h3 class="section-title">Genres</h3>
                 <div class="genres">
