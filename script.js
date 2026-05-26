@@ -19,7 +19,10 @@ fetch("data.json")
                     <p class="card-year">${anime.year}</p>
                     <p class="card-studio">${anime.studio}</p>
                     <p class="card-rating">${anime.rating}</p>
-                    <p class="card-platform">🎬 ${anime.platform}</p>
+                    <p class="card-platform">
+    🖥️ <a href="${anime.platform.url}" target="_blank">${anime.platform.name}</a>
+</p>
+
                     <a class="card-btn" href="anime.html?id=${anime.id}">Voir plus</a>
                 `;
                 
