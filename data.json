@@ -447,22 +447,24 @@
     "tags": ["action", "aventure", "comédie", "science-fiction", "survival", "dr. stone", "DR. STONE"]
 },
 {
-    "id": "",
-    "title": "",
-    "image": "images/.png",
+    "id": "fire-force",
+    "title": "Fire Force",
+    "image": "images/Fire Force.jpg",
 
-    "year": 0,
-    "studio": "",
-    "rating": 0,
+    "year": 2019,
+    "studio": "David Production",
+    "rating": "8/10",
 
-    "genres": [],
-    "synopsis": "",
+    "genres": ["shounen", "action", "aventure", "fantastique", "surnaturel"],
+    "synopsis": "Dans un monde où les humains s'embrasent spontanément en monstres de flammes, un jeune pompier aux pouvoirs démoniaques cherche la vérité derrière l'incendie qui a détruit sa famille.",
 
     "episodes": {
-        "Saison 1": 0
+        "Saison 1": 24,
+        "Saison 2": 24,
+        "Saison 3": 25
     },
-    "platform": "",
-    "tags": []
+    "platform": "Crunchyroll",
+    "tags": ["shounen", "action", "aventure", "fantastique", "surnaturel", "fire force", "FF"]
 },
 {
     "id": "",
