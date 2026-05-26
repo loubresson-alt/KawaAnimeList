@@ -390,6 +390,63 @@
     "tags": ["death note", "DEATH NOTE", "drame", "psychologique", "suspense", "thriller"]
 },
 {
+    "id": "Devil's-Line",
+    "title": "Devil's Line",
+    "image": "images/Devil's Line.jpg",
+
+    "year": 2018,
+    "studio": "Platinum Vision",
+    "rating": "7/10",
+
+    "genres": ["Seinen","Action", "Drame", "Romance", "Surnaturel", "Vampires"],
+    "synopsis": "Un vampire qui lutte contre sa soif de sang et une humaine au cœur fragile se retrouvent pris dans une spirale de violence, d'amour interdit et de monstres qui se cachent parmi les hommes.",
+
+    "episodes": {
+        "Saison 1": 12
+    },
+    "platform": "Anime Sama",
+    "tags": ["seinen", "action", "drame", "romance", "surnaturel", "vampires", "devil's line", "DL"]
+},
+{
+    "id": "dororo",
+    "title": "Dororo",
+    "image": "images/Dororo.jpg",
+
+    "year": 2019,
+    "studio": "MAPPA",
+    "rating": "5/10",
+
+    "genres": ["drame", "action", "aventure", "fantastique", "samurai"],
+    "synopsis": "Un jeune samouraï privé de son corps par des démons parcourt le Japon avec un voleur espiègle, décidé à récupérer morceau après morceau son humanité.",
+
+    "episodes": {
+        "Saison 1": 24
+    },
+    "platform": "Anime Sama",
+    "tags": ["drame", "action", "aventure", "fantastique", "samurai", "dororo", "DORORO"]
+},
+{
+    "id": "dr-stone",
+    "title": "Dr. Stone",
+    "image": "images/Dr. Stone.jpg",
+
+    "year": 2019,
+    "studio": "TMS Entertainment",
+    "rating": "8/10",
+
+    "genres": ["action", "aventure", "comédie", "science-fiction", "survival"],
+    "synopsis": "Réveillé dans un monde pétrifié depuis des millénaires, un génie scientifique décide de reconstruire la civilisation grâce au pouvoir de la science.",
+
+    "episodes": {
+        "Saison 1": 24,
+        "Saison 2": 11,
+        "Saison 3": 22,
+        "Saison 4": 37
+    },
+    "platform": "Crunchyroll",
+    "tags": ["action", "aventure", "comédie", "science-fiction", "survival", "dr. stone", "DR. STONE"]
+},
+{
     "id": "",
     "title": "",
     "image": "images/.png",
