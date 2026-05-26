@@ -12,7 +12,10 @@
             "season 2": 23,
             "season 3": 12
         },
-        "platform": "Crunchyroll",
+        "platform": {
+            "name": "Crunchyroll",
+            "url": "https://www.crunchyroll.com/fr"
+        },
         "studio": "MAPPA",
         "rating": "10/10",
         "tags": ["JJK","jjk","Jjk", "shonen", "action", "supernaturel", "comédie", "aventure"]
@@ -27,7 +30,10 @@
         "episodes": {
             "season 1": 12
         },
-        "platform": "Crunchyroll",
+        "platform": {
+            "name": "Crunchyroll",
+            "url": "https://www.crunchyroll.com/fr"
+        },
         "studio": "A-1 Pictures",
         "rating": "9.5/10",
         "tags": ["Solo Leveling", "action", "fantastique", "supernaturel"]
@@ -48,7 +54,10 @@
         "Saison 1": 13,
         "season 2": 13
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["ajin", "seinen", "action", "fantastique", "horreur", "suspense"]
 },
 {
@@ -68,8 +77,10 @@
         "Saison 2": 25,
         "Saison 3": 13
     },
-    "platform": "Crunchyroll",
-
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "drame", "comédie"]
 },
 {
@@ -87,7 +98,10 @@
     "episodes": {
         "Saison 1": 11
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["action", "comédie", "drame", "mystère", "polar", "thriller", "The Millionaire Detective - Balance Unlimited", "the millionaire detective - balance unlimited", "the millionaire detective", "TMD"]
 },
 {
@@ -105,8 +119,10 @@
     "episodes": {
         "Saison 1": 24
     },
-    "platform": "Crunchyroll",
-
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["gachiakuta", "GACHI", "gachi", "shōnen", "drame", "aventure"]
 },
 {
@@ -125,7 +141,10 @@
         "Saison 1": 12,
         "Saison 2": 12
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/shirayuki-aux-cheveux-rouges/"
+    },
     "tags": ["SWRH", "swrh", "snow white with the red hair", "shōjo", "romance", "drame"]
 },
 {
@@ -143,7 +162,10 @@
     "episodes": {
         "Saison 1": 24
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["YONA", "yona", "yona princesse de l'aube", "shōjo", "action", "aventure", "romance", "drame", "pouvoirs surnaturels"]
 },
 {
@@ -161,7 +183,10 @@
     "episodes": {
         "Saison 1": 12
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/amaama-to-inazuma/"
+    },
     "tags": ["amaama to inazuma", "ATI", "ati", "tranche de vie", "comédie", "famille"]
 },
 {
@@ -181,7 +206,10 @@
         "Saison 2": 25
     },
 
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["action", "comédie", "fantastique", "scolaire", "assassination classroom", "assassination classroom", "AC" ]
 },
 {
@@ -202,7 +230,10 @@
         "Saison 3": 12,
         "Saison 4": 24
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["shōnen", "action", "démons", "surnaturel", "blue exorcist", "blue exorcist", "BE"]
 },
 {
@@ -222,7 +253,10 @@
         "Saison 2": 39,
         "Saison 3": 13
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["baki", "BAKI", "action", "drame", "sport", "arts martiaux"]
 },
 {
@@ -240,7 +274,10 @@
     "episodes": {
         "Saison 1": 12
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["shoujo", "tranche de vie", "sport", "drame", "backflip", "BACKFLIP"]
 },
 {
@@ -258,7 +295,10 @@
     "episodes": {
         "Saison 1": 24
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/banana-fish/"
+    },
     "tags": ["psychologique", "action", "drame", "suspense", "thriller", "crime", "banana fish", "BF"]
 },
 {
@@ -276,7 +316,10 @@
     "episodes": {
         "Saison 1": 170
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["fantastique", "action", "shōnen", "aventure", "magie", "comédie", "black clover", "BC"]
 },
 {
@@ -294,7 +337,10 @@
     "episodes": {
         "Saison 1": 12
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["erased", "ERASED", "drame", "psychologique", "suspense", "thriller"]
 },
 {
@@ -312,9 +358,14 @@
     "episodes": {
         "Saison 1": 12,
         "Saison 2": 12,
-        "Saison 3": 12
+        "Saison 3": 12,
+        "Saison 4": 13,
+        "Saison 5": 11
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/bungou-stray-dogs/"
+    },
     "tags": ["action", "aventure", "fantastique", "surnaturel", "comédie", "bungou stray dogs", "BSD"]
 },
 {
@@ -332,7 +383,10 @@
     "episodes": {
         "Saison 1": 159
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["my hero academia", "shōnen", "action", "aventure", "super-pouvoirs", "comédie"]
 },
 {
@@ -350,7 +404,10 @@
     "episodes":{
         "Saison 1" : 13
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/charlotte/"
+    },
     "tags": ["charlotte", "Charlotte", "drame", "surnaturel", "comédie"]
 },
 {
@@ -368,7 +425,10 @@
     "episodes": {
         "Saison 1": 24
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["mecha", "romance", "science-fiction", "action", "psychologique", "darling in the franxx", "DITF"]
 },
 {
@@ -386,7 +446,10 @@
     "episodes": {
         "Saison 1": 37
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["death note", "DEATH NOTE", "drame", "psychologique", "suspense", "thriller"]
 },
 {
@@ -404,7 +467,10 @@
     "episodes": {
         "Saison 1": 12
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/devils-line/"
+    },
     "tags": ["seinen", "action", "drame", "romance", "surnaturel", "vampires", "devil's line", "DL"]
 },
 {
@@ -422,7 +488,10 @@
     "episodes": {
         "Saison 1": 24
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/dororo/"
+    },
     "tags": ["drame", "action", "aventure", "fantastique", "samurai", "dororo", "DORORO"]
 },
 {
@@ -443,7 +512,10 @@
         "Saison 3": 22,
         "Saison 4": 37
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["action", "aventure", "comédie", "science-fiction", "survival", "dr. stone", "DR. STONE"]
 },
 {
@@ -463,7 +535,10 @@
         "Saison 2": 24,
         "Saison 3": 25
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["shounen", "action", "aventure", "fantastique", "surnaturel", "fire force", "FF"]
 },
 {
@@ -483,7 +558,10 @@
         "Saison 2": 25
 
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/fairy-tail/"
+    },
     "tags": ["fairy tail", "action", "aventure", "comédie", "fantastique", "magie"]
 },
 {
@@ -504,7 +582,10 @@
         "Saison 3": 12
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["free", "FREE", "slice of life", "sports", "romance", "drame"]
 },
 {
@@ -523,7 +604,10 @@
         "Saison 1": 12
 
     },
-    "platform": "Anime Sama",
+    "platform": {
+        "name": "Anime Sama",
+        "url": "https://anime-sama.to/catalogue/school-babysitter/"
+    },
     "tags": ["school babysitter", "SCHOOL BABYSITTER", "comedy", "slice of life", "school", "family"]
 },
 {
@@ -542,7 +626,10 @@
         "Saison 1": 11
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["given", "GIVEN", "romance", "drame", "musique", "slice of life", "LGBTQ+"]
 },
 {
@@ -561,7 +648,10 @@
         "Saison 1": 5
 
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["LVT", "lvt", "la voie du tablier", "comédie", "slice of life", "cuisine", "famille"]
 },
 {
@@ -583,7 +673,10 @@
         "Saison 4": 25
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["haikyuu", "HAIKYUU", "comédie", "drame", "sport", "aventure"]
 },
 {
@@ -603,7 +696,10 @@
         "Saison 2": 13
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["horimiya", "HORIMIYA", "romance", "comédie", "slice of life", "school"]
 },
 {
@@ -622,7 +718,10 @@
         "Saison 1": 148
 
     },
-    "platform": "Netflix",
+    "platform": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/fr"
+    },
     "tags": ["hunter x hunter", "HUNTER X HUNTER", "fantastique", "action", "aventure", "shōnen", "comédie"]
 },
 {
@@ -641,7 +740,10 @@
         "Saison 1": 13
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["hypnosis mic", "HYPNOSIS MIC", "action", "musique", "comédie", "drame"]
 },
 {
@@ -662,7 +764,10 @@
         "Saison 3": 30
 
     },
-    "platform": "Crunchyroll",
+    "platform": {
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/fr"
+    },
     "tags": ["idolish7", "IDOLISH7", "comédie", "musique", "drame", "Tranche de vie"]
 },
 {
