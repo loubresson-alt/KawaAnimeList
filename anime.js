@@ -50,9 +50,9 @@ fetch("data.json")
                     <span class="badge">📅 ${anime.year}</span>
                     <span class="badge">🏢 ${anime.studio}</span>
                     <span class="badge">💖 ${anime.rating}</span>
-                    <span class="badge">
-    🎬 <a href="${anime.platform.url}" target="_blank">${anime.platform.name}</a>
+                    <span class="badge">🎬 <a href="${anime.platform.url}" target="_blank">${anime.platform.name}</a>
 </span>
+
 
                 </div>
 
