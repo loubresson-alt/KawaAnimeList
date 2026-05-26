@@ -467,23 +467,102 @@
     "tags": ["shounen", "action", "aventure", "fantastique", "surnaturel", "fire force", "FF"]
 },
 {
+    "id": "fairy-tail",
+    "title": "Fairy Tail",
+    "image": "images/Fairy Tail.jpg",
+
+    "year": 2009,
+    "studio": "A-1 Pictures",
+    "rating": "7/10",
+
+    "genres": ["action", "aventure", "comédie", "fantastique", "magie"],
+    "synopsis": "Dans une guilde où l'amitié est plus puissante que n'importe quelle magie, un groupe de mages déchaîne tout pour protéger les leurs et affronter des ennemis toujours plus colossaux.",
+
+    "episodes": {
+        "Saison 1": 328,
+        "Saison 2": 25
+
+    },
+    "platform": "Anime Sama",
+    "tags": ["fairy tail", "action", "aventure", "comédie", "fantastique", "magie"]
+},
+{
+    "id": "free",
+    "title": "Free!",
+    "image": "images/Free.jpg",
+
+    "year": 2013,
+    "studio": "Kyoto Animation",
+    "rating": "3/10",
+
+    "genres": ["slice of life", "sports", "romance", "drame"],
+    "synopsis": "Entre rivalités, amitiés profondes et passion de l'eau, un groupe de nageurs se bat pour trouver sa voie et nager vers ses rêves.",
+
+    "episodes": {
+        "Saison 1": 12,
+        "Saison 2": 13,
+        "Saison 3": 12
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["free", "FREE", "slice of life", "sports", "romance", "drame"]
+},
+{
+    "id": "school-babysitter",
+    "title": "School Babysitter",
+    "image": "images/School Babysitter.jpg",
+
+    "year": 2018,
+    "studio": "Brain's Base",
+    "rating": "7/10",
+
+    "genres": ["comedy", "slice of life", "school", "family"],
+    "synopsis": "Après avoir perdu leurs parents, un lycéen et son petit frère trouvent une nouvelle famille en rejoignant un club de garderie rempli de bébés aussi adorables que chaotiques.",
+
+    "episodes": {
+        "Saison 1": 12
+
+    },
+    "platform": "Anime Sama",
+    "tags": ["school babysitter", "SCHOOL BABYSITTER", "comedy", "slice of life", "school", "family"]
+},
+{
     "id": "",
     "title": "",
-    "image": "images/.png",
+    "image": "images/.jpg",
 
     "year": 0,
     "studio": "",
-    "rating": 0,
+    "rating": "",
 
-    "genres": [],
+    "genres": [""],
     "synopsis": "",
 
     "episodes": {
         "Saison 1": 0
+
+    },
+    "platform": "",
+    "tags": []
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.jpg",
+
+    "year": 0,
+    "studio": "",
+    "rating": "",
+
+    "genres": [""],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+
     },
     "platform": "",
     "tags": []
 }
-
 ]
 
