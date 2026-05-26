@@ -527,6 +527,105 @@
     "tags": ["school babysitter", "SCHOOL BABYSITTER", "comedy", "slice of life", "school", "family"]
 },
 {
+    "id": "given",
+    "title": "Given",
+    "image": "images/Given.jpg",
+
+    "year": 2019,
+    "studio": "Lerche",
+    "rating": "8.5/10",
+
+    "genres": ["romance", "drame", "musique", "slice of life", "LGBTQ+"],
+    "synopsis": "Quand un lycéen brisé découvre un talent pour le chant, un groupe de musiciens l'entraîne dans une histoire d'amour, de deuil et de renaissance portée par la musique.",
+
+    "episodes": {
+        "Saison 1": 11
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["given", "GIVEN", "romance", "drame", "musique", "slice of life", "LGBTQ+"]
+},
+{
+    "id": "la-voie-du-tablier",
+    "title": "La Voie du Tablier",
+    "image": "images/La Voie du Tablier.jpg",
+
+    "year": 2021,
+    "studio": " J.C. Staff",
+    "rating": "8/10",
+
+    "genres": ["comédie", "slice of life", "cuisine", "famille"],
+    "synopsis": "Ancien yakuza légendaire devenu mari au foyer, Tatsu applique ses méthodes de gangster aux tâches ménagères, transformant le quotidien en mission ultra-sérieuse.",
+
+    "episodes": {
+        "Saison 1": 5
+
+    },
+    "platform": "Netflix",
+    "tags": ["LVT", "lvt", "la voie du tablier", "comédie", "slice of life", "cuisine", "famille"]
+},
+{
+    "id": "haikyuu",
+    "title": "Haikyuu!!",
+    "image": "images/Haikyuu.jpg",
+
+    "year": 2014,
+    "studio": " Production I.G",
+    "rating": "9/10",
+
+    "genres": ["comédie", "drame", "sport", "aventure"],
+    "synopsis": "Porté par une passion dévorante pour le volley, un duo improbable transforme chaque match en ascension féroce vers leurs rêves.",
+
+    "episodes": {
+        "Saison 1": 26,
+        "Saison 2": 25,
+        "Saison 3": 10,
+        "Saison 4": 25
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["haikyuu", "HAIKYUU", "comédie", "drame", "sport", "aventure"]
+},
+{
+    "id": "horimiya",
+    "title": "Horimiya",
+    "image": "images/Horimiya.jpg",
+
+    "year": 2021,
+    "studio": "CloverWorks",
+    "rating": "8/10",
+
+    "genres": ["romance", "comédie", "slice of life", "school"],
+    "synopsis": "Quand la fille populaire et le garçon discret se découvrent loin des apparences, naît une romance douce où deux cœurs apprennent à s'aimer tels qu'ils sont.",
+
+    "episodes": {
+        "Saison 1": 13,
+        "Saison 2": 13
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["horimiya", "HORIMIYA", "romance", "comédie", "slice of life", "school"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.jpg",
+
+    "year": 0,
+    "studio": "",
+    "rating": "",
+
+    "genres": [""],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+
+    },
+    "platform": "",
+    "tags": []
+},
+{
     "id": "",
     "title": "",
     "image": "images/.jpg",
@@ -564,5 +663,7 @@
     "platform": "",
     "tags": []
 }
+
+
 ]
 
