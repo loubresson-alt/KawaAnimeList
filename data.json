@@ -4,7 +4,7 @@
         "id": "jujutsu-kaisen",
         "title": "Jujutsu Kaisen",
         "image": "images/jujutsu.png",
-        "genres": ["action", "adventure", "comedy", "supernatural"],
+        "genres": ["action", "aventure", "comédie", "supernaturel"],
         "synopsis": "Un lycéen au destin maudit plonge dans un monde d'exorcistes et de fléaux, où chaque combat rapproche un peu plus l'humanité du chaos.",
         "year": "2020",
         "episodes": {
@@ -15,13 +15,13 @@
         "platform": "Crunchyroll",
         "studio": "MAPPA",
         "rating": "10/10",
-        "tags": ["JJK","jjk","Jjk", "shonen", "action", "supernatural"]
+        "tags": ["JJK","jjk","Jjk", "shonen", "action", "supernaturel", "comédie", "aventure"]
     },
     {
         "id": "solo-leveling",
         "title": "Solo Leveling",
         "image": "images/solo-leveling.png",
-        "genres": ["Action", "Fantasy", "Supernatural", "Adventure", "Combat", "RPG"],
+        "genres": ["Action", "Fantastique", "Supernaturel", "Aventure", "Combat", "RPG"],
         "synopsis": "Un chasseur parmi les plus faibles se retrouve doté d'un pouvoir unique : évoluer sans limite.",
         "year": "2024",
         "episodes": {
@@ -30,7 +30,7 @@
         "platform": "Crunchyroll",
         "studio": "A-1 Pictures",
         "rating": "9.5/10",
-        "tags": ["Solo Leveling", "action", "fantasy", "supernatural"]
+        "tags": ["Solo Leveling", "action", "fantastique", "supernaturel"]
     },
     {
     "id": "ajin",
@@ -42,7 +42,7 @@
     "rating": "8/10",
 
     "genres": ["Seinen", "Action", "fantastique", "horreur", "suspense"],
-    "synopsis": "Un lycéen devenu immortel se retrouve traqué par l’humanité et pris dans une guerre menée par un Ajin prêt à tout.",
+    "synopsis": "Un lycéen devenu immortel se retrouve traqué par l'humanité et pris dans une guerre menée par un Ajin prêt à tout.",
 
     "episodes": {
         "Saison 1": 13,
@@ -60,7 +60,7 @@
     "studio": "TMS Entertainment",
     "rating": "10/10",
 
-    "genres": [	"Shōjo", "Romance", "Fantasy", "Drame", "Comédie"],
+    "genres": [	"Shōjo", "Romance", "Drame", "Comédie"],
     "synopsis": "Une lycéenne sans foyer découvre qu'une famille maudite peut se transformer en animaux du zodiaque, bouleversant son destin autant que le leur.",
 
     "episodes": {
@@ -70,7 +70,7 @@
     },
     "platform": "Crunchyroll",
 
-    "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "fantasy", "drame", "comédie"]
+    "tags": ["FT", "ft","fruit basket", "shōjo", "romance", "drame", "comédie"]
 },
 {
     "id": "The-Millionaire-Detective-Balance-Unlimited",
@@ -99,7 +99,7 @@
     "studio": "Bones",
     "rating": "9.5/10",
 
-    "genres": ["Shōnen", "drame", "aventure", "fantasy"],
+    "genres": ["Shōnen", "drame", "aventure"],
     "synopsis": "Accusé à tort et jeté dans un monde de déchets, un jeune paria doit survivre en maîtrisant un pouvoir né de la haine et des rebuts de l'humanité.",
 
     "episodes": {
@@ -107,7 +107,7 @@
     },
     "platform": "Crunchyroll",
 
-    "tags": ["gachiakuta", "GACHI", "gachi", "shōnen", "drame", "aventure", "fantasy"]
+    "tags": ["gachiakuta", "GACHI", "gachi", "shōnen", "drame", "aventure"]
 },
 {
     "id": "Snow-White-with-the-Red-Hair",
@@ -118,7 +118,7 @@
     "studio": "Bones",
     "rating": "6.5/10",
 
-    "genres": ["Shōjo", "Fantasy", "Romance"],
+    "genres": ["Shōjo", "Drame", "Romance"],
     "synopsis": "Une herboriste aux cheveux rouges fuit un prince capricieux et trouve son destin auprès d'un prince qui voit en elle bien plus qu'une simple roturière.",
 
     "episodes": {
@@ -126,7 +126,7 @@
         "Saison 2": 12
     },
     "platform": "Anime Sama",
-    "tags": ["SWRH", "swrh", "snow white with the red hair", "shōjo", "fantasy", "romance"]
+    "tags": ["SWRH", "swrh", "snow white with the red hair", "shōjo", "romance", "drame"]
 },
 {
     "id": "Yona-princesse-de-l'aube",
@@ -333,7 +333,7 @@
         "Saison 1": 159
     },
     "platform": "Crunchyroll",
-    "tags": ["AC", "ac", "my hero academia", "shōnen", "action", "aventure", "super-pouvoirs", "comédie"]
+    "tags": ["my hero academia", "shōnen", "action", "aventure", "super-pouvoirs", "comédie"]
 },
 {
     "id": "charlotte",
@@ -607,6 +607,84 @@
     "tags": ["horimiya", "HORIMIYA", "romance", "comédie", "slice of life", "school"]
 },
 {
+    "id": "hunter-x-hunter",
+    "title": "Hunter x Hunter",
+    "image": "images/Hunter x Hunter.jpg",
+
+    "year": 2011,
+    "studio": "Madhouse",
+    "rating": "9/10",
+
+    "genres": ["fantastique", "action", "aventure", "shōnen", "comédie"],
+    "synopsis": "Un garçon au cœur pur parcourt un monde impitoyable pour devenir Hunter, affrontant des épreuves qui forgent son destin et révèlent la vraie nature des monstres… humains ou non.",
+
+    "episodes": {
+        "Saison 1": 148
+
+    },
+    "platform": "Netflix",
+    "tags": ["hunter x hunter", "HUNTER X HUNTER", "fantastique", "action", "aventure", "shōnen", "comédie"]
+},
+{
+    "id": "hypnosis-mic-division-rap-battle",
+    "title": "Hypnosis Mic -Division Rap Battle-",
+    "image": "images/Hypnosis Mic-Division Rap Battle.jpg",
+
+    "year": 13,
+    "studio": "A-1 Pictures",
+    "rating": "5/10",
+
+    "genres": ["action", "musique", "comédie", "drame"],
+    "synopsis": "Dans un Japon où les armes sont interdites, des crews s'affrontent à coups de rimes meurtrières, transformant chaque battle en guerre de territoire et d'ego.",
+
+    "episodes": {
+        "Saison 1": 13
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["hypnosis mic", "HYPNOSIS MIC", "action", "musique", "comédie", "drame"]
+},
+{
+    "id": "idolish7",
+    "title": "Idolish7",
+    "image": "images/Idolish7.jpg",
+
+    "year": 2018,
+    "studio": "TROYCA",
+    "rating": "4/10",
+
+    "genres": ["comédie", "musique", "drame", "Tranche de vie"],
+    "synopsis": "Sept idols aux passés différents unissent leurs voix pour briller, affronter leurs démons et prouver que la passion peut surpasser la gloire.",
+
+    "episodes": {
+        "Saison 1": 17,
+        "Saison 2": 15,
+        "Saison 3": 30
+
+    },
+    "platform": "Crunchyroll",
+    "tags": ["idolish7", "IDOLISH7", "comédie", "musique", "drame", "Tranche de vie"]
+},
+{
+    "id": "",
+    "title": "",
+    "image": "images/.jpg",
+
+    "year": 0,
+    "studio": "",
+    "rating": "",
+
+    "genres": [""],
+    "synopsis": "",
+
+    "episodes": {
+        "Saison 1": 0
+
+    },
+    "platform": "",
+    "tags": []
+},
+{
     "id": "",
     "title": "",
     "image": "images/.jpg",
@@ -663,7 +741,5 @@
     "platform": "",
     "tags": []
 }
-
-
 ]
 
